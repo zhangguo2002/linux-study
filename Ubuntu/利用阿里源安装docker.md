@@ -36,9 +36,14 @@ sudo nano /etc/docker/daemon.json
 
 写入（需要你在阿里云获取专属加速地址）：
 
+
 {
-  "registry-mirrors": ["https://xxxx.mirror.aliyuncs.com"]
+     "registry-mirrors": [
+        "https://docker.1ms.run",
+        "https://docker.xuanyuan.me"
+    ]
 }
+
 
 获取地址：登录阿里云 → 容器镜像服务 → 镜像加速器
 
